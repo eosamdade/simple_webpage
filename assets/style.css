@@ -406,11 +406,94 @@
             rgba(0,0,0,0) 0%,
             rgba(17, 17, 17, 0.6) 100%
         ),
-        url('./pics/porfolio/DSC02804.jpg'),;
+        url('./pics/port_main_imgs/DSC02186.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
     border-width: 1px;
     border-color: #fff;
     border-style: solid;
+}
+
+.category:nth-child(2) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('./pics/port_main_imgs/Tamara-Antwon\ Baby\ Shower-27.jpg');
+}
+
+.category:nth-child(3) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('./pics/port_main_imgs/DSC02464.jpg');
+}
+.category:nth-child(4) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('./pics/port_main_imgs/DSC02519.jpg');
+}
+
+.category h2 {
+    position: absolute;
+    top:350px;
+    left: 30px;
+}
+
+.category p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.category button {
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .portfolio {
+        height: 1600px;
+    }
+
+    .portfolio h1 {
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio {
+        height: 1400px;
+    }
+
+    .portfolio h1 {
+        font-size: 1.2rem;
+    }
+
+    .category {
+        width: 300px;
+    }
 }
