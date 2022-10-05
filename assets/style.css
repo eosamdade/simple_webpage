@@ -480,6 +480,10 @@
     cursor: pointer;
 }
 
+.category button:hover {
+    background: #4837ff;
+}
+
 @media screen and (max-width: 960px) {
     .portfolio {
         height: 1500px;
@@ -602,6 +606,7 @@
     display:flex;
     align-items: center;
     margin-bottom: 16px;
+    /* background-color: #21b4fd; */
 }
 
 .footer__logo span{
