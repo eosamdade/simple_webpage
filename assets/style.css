@@ -409,11 +409,10 @@
     width: 400px;
     border-radius: 4px;
     background-image: linear-gradient(
-            to bottom,
-            rgba(0,0,0,0) 0%,
-            rgba(17, 17, 17, 0.6) 100%
-        ),
-        url('./pics/port_main_imgs/DSC02186.jpg');
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%,
+        url('/pics/port_main_imgs/DSC02186.jpg'));
     background-size: cover;
     position: relative;
     color: #fff;
@@ -428,7 +427,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('./pics/port_main_imgs/Tamara-Antwon\ Baby\ Shower-27.jpg');
+    url('pics/port_main_imgs/Tamara-Antwon\ Baby\ Shower-27.jpg');
 }
 
 .category:nth-child(3) {
@@ -437,7 +436,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('./pics/port_main_imgs/DSC02464.jpg');
+    url('pics/port_main_imgs/DSC02464.jpg');
 }
 .category:nth-child(4) {
     background-image: linear-gradient(
@@ -445,7 +444,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('./pics/port_main_imgs/DSC02519.jpg');
+    url('pics/port_main_imgs/DSC02519.jpg');
 }
 
 .category h2 {
