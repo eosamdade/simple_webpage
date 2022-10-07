@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLK Hand</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./modal_email.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -52,27 +53,29 @@
             <div class="close-btn">&times;</div>
             <!-- left section -->
             <div class="modal-content-left">
-                <img src="./pics/porfolio/bulova-2.jpg" alt="sign_up_pic">
+                <img src="./pics/porfolio/svg/smoke sign-up small.svg" id="modal-img" alt="sign_up_pic">
             </div>
             <!-- modal content right -->
             <div class="modal_content-right">
                 <!-- form -->
                 <form action="/" class="modal-form" id="form" method="get">
                     <h1>Get started with us today! Creat your account by filling out the information below</h1>
-                    <div class="form_validation">
-                        <input type="text" class="modal_input" id="name" name="name" placeholder="Enter your name">
+                    <div class="form-validation">
+                        <input type="text" class="modal-input" id="name" name="name" placeholder="Enter your name">
                         <p>Error message</p>
                     </div>
-                    <div class="form_validation">
-                        <input type="text" class="modal_input" id="email" name="email" placeholder="Enter your email">
+                    <div class="form-validation">
+                        <input type="text" class="modal-input" id="email" name="email" placeholder="Enter your email">
                         <p>Error message</p>
-                    </div><div class="form_validation">
-                        <input type="text" class="modal_input" id="password" name="password" placeholder="Enter your password">
+                    </div><div class="form-validation">
+                        <input type="text" class="modal-input" id="password" name="password" placeholder="Enter your password">
                         <p>Error message</p>
-                    </div><div class="form_validation">
-                        <input type="text" class="modal_input" id="name-confirm" name="name" placeholder="Confirm your password">
+                    </div><div class="form-validation">
+                        <input type="text" class="modal-input" id="name-confirm" name="name" placeholder="Confirm your password">
                         <p>Error message</p>
                     </div>
+                    <input type="submit" class="modal-input-btn" value="Sign-Up">
+                    <span class="modal-input-login">Already have an account? Login <a href="#">here</a></span>
                 </form>
             </div>
         </div>
