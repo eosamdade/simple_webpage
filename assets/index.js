@@ -32,3 +32,36 @@ window.addEventListener('click', (e) => {
         modal.style.display = 'none'
     }
 });
+
+// form validation
+const form = documnet.getElementById("form");
+const name = documnet.getElementById("name");
+const email = documnet.getElementById("email");
+const password = documnet.getElementById("password");
+const password_confirm = documnet.getElementById("password-confirm");
+
+// show error
+function showError (input,message) {
+    const formValidation = input.parentElement;
+    formValidation.className = 'form-validation error'
+
+    const errorMessage = formValidation.querySelector('p');
+    errorMessage.innerText = message;
+}
+
+// Event Listeners 
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    checkRequired([name, email, password, password_confirm])
+})
+
+// Check required fields
+function checkRequired(inputArr) {
+    inputArr.forEach(function(input) {
+        if(inputArr.value.trim() === '') {
+            showError(input, 'Error')
+        }
+    })
+}
+
