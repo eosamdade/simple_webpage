@@ -58,7 +58,7 @@
     background-image: url('/pics/porfolio/svg/fpsvg/Nature-1.svg');
     background-size: cover;
     position: relative;
-    color: #fff;
+    color: var(--lightgray);
 }
 
 .nature-pic-cell:nth-child(2) {
@@ -87,14 +87,6 @@
     url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
 }
 
-/* .nat-pic-cell-text {
-    z-index: 2;
-    background-color: var(--darkgray);
-    border-width: 1px;
-    border-color: #fff;
-    border-style: solid;
-} */
-
 .nat-pic-cell-text h3 {
     position: absolute;
     top:460px;
@@ -113,8 +105,6 @@
     left: 10px;
 }
 
-/* do the nature pic cell long something */
-
 .nature-pic-cell:hover {
     opacity: 1;
     transform: scale(1.05);
@@ -127,9 +117,9 @@
 .nature-pic-cell:before {
     content: '';
     position:absolute;
-    opacity: 0.4;
+    opacity: 0.2;
     width: 400px;
-    height: 200px;
+    height: 80px;
     background: var(--white);
     bottom:0px;
     left: 0;
