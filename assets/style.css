@@ -322,7 +322,7 @@
         justify-self: center;
         width: 50%;
         margin: 0 auto;
-        height: 500px;
+        height: auto;
     }
 
     .main__content {
@@ -375,7 +375,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: auto;
     /* color: #fff;
     border-width: 1px;
     border-color: #fff;
@@ -465,7 +465,7 @@
     left: 30px;
 }
 
-.category button {
+.category button a {
     color: #fff;
     padding: 10px;
     border: none;
@@ -477,6 +477,7 @@
     left: 30px;
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .category:hover {
@@ -485,28 +486,30 @@
     cursor: pointer;
 }
 
-.category button:hover {
+.category button:hover a {
     background: #4837ff;
+    transition: 0.2s ease-in;
 }
 
 @media screen and (max-width: 960px) {
     .portfolio {
-        height: 1500px;
+        height: auto;
     }
 
     .portfolio h1 {
         font-size: 2rem;
-        margin-top: 12rem;
+        margin-top: 2rem;
     }
 }
 
 @media screen and (max-width: 780px) {
     .portfolio {
-        height: 1500px;
+        height: auto;
     }
 
     .portfolio h1 {
-        font-size: 1.2rem;
+        margin-top: 4rem;
+        font-size: 1.6rem;
     }
 
     .category {
