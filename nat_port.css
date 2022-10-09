@@ -78,6 +78,7 @@
     ),
     url('/pics/porfolio/metallic_PrintsUSA/nat_svg/10.svg');
 }
+
 .nature-pic-cell:nth-child(4) {
     background-image: linear-gradient(
         to bottom,
@@ -93,34 +94,34 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/12.svg');
 }
 
-.nature-pic-cell:nth-child(4) {
+.nature-pic-cell:nth-child(6) {
     background-image: linear-gradient(
         to bottom,
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/13.svg');
 }
 
-.nature-pic-cell:nth-child(4) {
+.nature-pic-cell:nth-child(7) {
     background-image: linear-gradient(
         to bottom,
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/14.svg');
 }
 
-.nature-pic-cell:nth-child(4) {
+.nature-pic-cell:nth-child(8) {
     background-image: linear-gradient(
         to bottom,
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/15.svg');
 }
 .nat-pic-cell-text h3 {
     position: absolute;
