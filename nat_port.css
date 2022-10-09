@@ -55,7 +55,7 @@
     margin: 1rem;
     height: 525px;
     width: 400px;
-    background-image: url('/pics/porfolio/svg/fpsvg/Nature-1.svg');
+    background-image: url('/pics/porfolio/metallic_PrintsUSA/nat_svg/2.svg');
     background-size: cover;
     position: relative;
     color: var(--lightgray);
@@ -67,7 +67,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/svg/fpsvg/explore-chicago.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/2.svg');
 }
 
 .nature-pic-cell:nth-child(3) {
@@ -99,7 +99,7 @@
     left: 10px;
 }
 
-.nat-pic-cell-text i {
+.nat-pic-cell-text button {
     position: absolute;
     top: 500px;
     left: 10px;
