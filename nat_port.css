@@ -67,7 +67,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/2.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/9.svg');
 }
 
 .nature-pic-cell:nth-child(3) {
@@ -76,8 +76,26 @@
         rgba(0,0,0,0) 0%,
         rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/pics/porfolio/svg/fpsvg/smoke.svg');
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/10.svg');
 }
+.nature-pic-cell:nth-child(4) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/pics/porfolio/metallic_PrintsUSA/nat_svg/11.svg');
+}
+
+.nature-pic-cell:nth-child(5) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+}
+
 .nature-pic-cell:nth-child(4) {
     background-image: linear-gradient(
         to bottom,
@@ -87,6 +105,23 @@
     url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
 }
 
+.nature-pic-cell:nth-child(4) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+}
+
+.nature-pic-cell:nth-child(4) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/pics/porfolio/svg/fpsvg/photo-stories.svg');
+}
 .nat-pic-cell-text h3 {
     position: absolute;
     top:460px;
