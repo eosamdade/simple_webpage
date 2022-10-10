@@ -102,3 +102,13 @@ form.addEventListener('submit', (e) => {
     checkLength(passwordConfirm,8 ,25);
     passwordMatch(password, passwordConfirm);
 })
+
+// nature gallery 
+let fullImg = document.getElementsByClass('full-img');
+let fullImgBox = document.querySelector('.pic-cell');
+
+fullImgBox.addEventListener('click', function(e){
+    e.preventDefault();
+    console.log('hey');
+})
+

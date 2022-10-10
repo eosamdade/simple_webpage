@@ -139,6 +139,20 @@
     position: absolute;
     top: 500px;
     left: 10px;
+    color: var(--lightgraye);
+    background-color: black;
+    border: solid white 1px;
+    font-weight: bolder;
+    z-index: 150;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.chicago-pic-cell-text button:hover {
+    color: yellow;
+    background-color: black;
+    border: solid white 1px;
+    font-weight: bolder;
 }
 
 .chicago-pic-cell:hover {
