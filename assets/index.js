@@ -20,11 +20,11 @@ openBtn.addEventListener('click', () => {
 });
 
 closeBtn.addEventListener('click', () => {
-    modal.style.display = 'none'
+    modal.style.display = 'none';
 });
 
 signUpBtn.addEventListener('click', () => {
-    modal.style.display = 'block'
+    modal.style.display = 'block';
 });
 
 window.addEventListener('click', (e) => {
@@ -104,11 +104,16 @@ form.addEventListener('submit', (e) => {
 })
 
 // nature gallery 
-let fullImg = document.getElementsByClass('full-img');
-let fullImgBox = document.querySelector('.pic-cell');
+// let fullImg = document.getElementsByClass('full-img');
+// let fullImgBox = document.querySelector('.pic-cell');
 
-fullImgBox.addEventListener('click', function(e){
-    e.preventDefault();
-    console.log('hey');
-})
+// fullImgBox.addEventListener('click', function(e){
+//     e.preventDefault();
+//     console.log('hey');
+// })
 
+let picCell = document.querySelector('.gallery-heading');
+
+picCell.addEventListener('click', () => {
+    console.log('ping');
+});
