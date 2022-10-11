@@ -104,14 +104,15 @@ form.addEventListener('submit', (e) => {
 })
 
 // nature gallery 
-// let fullImg = document.getElementsByClass('full-img');
-// let fullImgBox = document.querySelector('.pic-cell');
+let fullImg = document.getElementsByClass('full-img');
+let fullImgBox = document.querySelector('.pic-cell');
 
-// fullImgBox.addEventListener('click', function(e){
-//     e.preventDefault();
-//     console.log('hey');
-// })
+fullImgBox.addEventListener('click', function(e){
+    e.preventDefault();
+    console.log('hey');
+})
 
+//something wrong with the js
 let picCell = document.querySelector('.gallery-heading');
 
 picCell.addEventListener('click', () => {
