@@ -768,7 +768,7 @@
     /* border: solid 1px var(--white); */
 }
 
-.story-cell {
+.nat_pics, .story-cell {
     flex: 0 1 250px;
     max-width: 250px;
     height: 275px;
@@ -779,6 +779,7 @@
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .story-cell_img {
